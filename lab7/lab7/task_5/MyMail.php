@@ -12,11 +12,11 @@ function Send($name, $to, $body): void
         $mail->SMTPAuth = true;
 
         $mail->Host = 'smtp.gmail.com';
-        $mail->Username = "rylonoboev2004@gmail.com";
-        $mail->Password = "ПАРОЛЬ";
+        $mail->Username = "rUSERNAME";
+        $mail->Password = "PASSWORD";
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom("rylonoboev2004@gmail.com", $name);
+        $mail->setFrom("USERNAME", $name);
 
         if (isset($_FILES['attachment'])) {
             foreach ($_FILES['attachment']['tmp_name'] as $index => $tmpName) {
