@@ -1,0 +1,71 @@
+[25-Apr-2023 14:30:05 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:30:05 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:30:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:30:05 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:30:05 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:30:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:31:57 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:31:57 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:31:57 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:31:57 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:31:57 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:31:57 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:33:42 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:33:42 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:33:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:33:42 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:33:42 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:33:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:34:04 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 21
+[25-Apr-2023 14:34:04 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:34:04 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:34:04 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 21
+[25-Apr-2023 14:34:04 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:34:04 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:41:20 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:41:20 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:41:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:41:20 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 20
+[25-Apr-2023 14:41:20 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:41:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:45:15 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 21
+[25-Apr-2023 14:45:15 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:45:15 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:45:15 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 21
+[25-Apr-2023 14:45:15 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:45:15 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP Warning:  file_get_contents(http://api.geonames.org/search?country=RU&adminCode1=MOW&featureClass=P&maxRows=1000&username=Oboev54): Failed to open stream: HTTP request failed! in C:\WebData\lab5\init.php on line 17
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP   2. file_get_contents($filename = 'http://api.geonames.org/search?country=RU&adminCode1=MOW&featureClass=P&maxRows=1000&username=Oboev54') C:\WebData\lab5\init.php:17
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 21
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 21
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:55:22 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:57:28 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 22
+[25-Apr-2023 14:57:28 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:57:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:57:28 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 22
+[25-Apr-2023 14:57:28 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:57:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:57:37 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab5\init.php on line 22
+[25-Apr-2023 14:57:37 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:57:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 14:57:37 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 22
+[25-Apr-2023 14:57:37 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 14:57:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 15:10:43 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'used' doesn't have a default value in C:\WebData\lab5\init.php:22
+Stack trace:
+#0 C:\WebData\lab5\init.php(22): mysqli_query(Object(mysqli), 'INSERT INTO cit...')
+#1 {main}
+  thrown in C:\WebData\lab5\init.php on line 22
+[25-Apr-2023 18:46:41 Europe/Minsk] PHP Warning:  Undefined array key "items" in C:\WebData\lab5\init.php on line 19
+[25-Apr-2023 18:46:41 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 19
+[25-Apr-2023 18:58:28 Europe/Minsk] PHP Warning:  Undefined array key "items" in C:\WebData\lab5\init.php on line 19
+[25-Apr-2023 18:58:28 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 18:58:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
+[25-Apr-2023 18:58:28 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, null given in C:\WebData\lab5\init.php on line 19
+[25-Apr-2023 18:58:28 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 18:58:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab5\init.php:0
