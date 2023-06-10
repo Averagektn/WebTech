@@ -1,0 +1,607 @@
+[12-May-2023 13:31:20 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in C:\WebData\lab7\task_1\download.php on line 12
+[12-May-2023 13:31:20 Europe/Minsk] PHP Stack trace:
+[12-May-2023 13:31:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 13:31:20 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime') C:\WebData\lab7\task_1\download.php:12
+[12-May-2023 13:32:12 Europe/Minsk] PHP Warning:  file_get_contents(http://wallpapercave.com/categories/anime): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in C:\WebData\lab7\task_1\download.php on line 12
+[12-May-2023 13:32:12 Europe/Minsk] PHP Stack trace:
+[12-May-2023 13:32:12 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 13:32:12 Europe/Minsk] PHP   2. file_get_contents($filename = 'http://wallpapercave.com/categories/anime') C:\WebData\lab7\task_1\download.php:12
+[12-May-2023 13:34:34 Europe/Minsk] PHP Warning:  file_get_contents(http://wallpapercave.com/categories/anime): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in C:\WebData\lab7\task_1\download.php on line 19
+[12-May-2023 13:34:34 Europe/Minsk] PHP Stack trace:
+[12-May-2023 13:34:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 13:34:34 Europe/Minsk] PHP   2. file_get_contents($filename = 'http://wallpapercave.com/categories/anime', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:19
+[12-May-2023 14:00:12 Europe/Minsk] PHP Fatal error:  Uncaught ValueError: DOMDocument::loadHTML(): Argument #1 ($source) must not be empty in C:\WebData\lab7\task_1\download.php:24
+Stack trace:
+#0 C:\WebData\lab7\task_1\download.php(24): DOMDocument->loadHTML('')
+#1 {main}
+  thrown in C:\WebData\lab7\task_1\download.php on line 24
+[12-May-2023 14:04:09 Europe/Minsk] PHP Warning:  Undefined array key "save_folder" in C:\WebData\lab7\task_1\download.php on line 4
+[12-May-2023 14:04:09 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:04:09 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:04:13 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in C:\WebData\lab7\task_1\download.php on line 7
+[12-May-2023 14:04:13 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:04:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:04:13 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime') C:\WebData\lab7\task_1\download.php:7
+[12-May-2023 14:05:34 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime): Failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in C:\WebData\lab7\task_1\download.php on line 7
+[12-May-2023 14:05:34 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:05:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:05:34 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime') C:\WebData\lab7\task_1\download.php:7
+[12-May-2023 14:19:53 Europe/Minsk] PHP Warning:  require_once(simple_html_dom.php): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 4
+[12-May-2023 14:19:53 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:19:53 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:19:53 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'simple_html_dom.php' (include_path='.;C:\php\pear') in C:\WebData\lab7\task_1\download.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab7\task_1\download.php on line 4
+[12-May-2023 14:25:56 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[12-May-2023 14:25:56 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:25:56 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:25:56 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[12-May-2023 14:25:56 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[12-May-2023 14:25:56 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:25:56 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:25:56 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[12-May-2023 14:26:50 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[12-May-2023 14:26:50 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:26:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:26:50 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[12-May-2023 14:26:50 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[12-May-2023 14:26:50 Europe/Minsk] PHP Stack trace:
+[12-May-2023 14:26:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[12-May-2023 14:26:50 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:46:50 Europe/Minsk] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo for www.bsuir.by failed: No such host is known.  in C:\WebData\lab7\task_1\download.php on line 26
+[22-May-2023 18:46:50 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:46:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:46:50 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://www.bsuir.by/', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:26
+[22-May-2023 18:46:50 Europe/Minsk] PHP Warning:  file_get_contents(https://www.bsuir.by/): Failed to open stream: php_network_getaddresses: getaddrinfo for www.bsuir.by failed: No such host is known.  in C:\WebData\lab7\task_1\download.php on line 26
+[22-May-2023 18:46:50 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:46:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:46:50 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://www.bsuir.by/', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:26
+[22-May-2023 18:48:10 Europe/Minsk] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo for wallpapercave.com failed: No such host is known.  in C:\WebData\lab7\task_1\download.php on line 26
+[22-May-2023 18:48:10 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:48:10 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:48:10 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:26
+[22-May-2023 18:48:10 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime): Failed to open stream: php_network_getaddresses: getaddrinfo for wallpapercave.com failed: No such host is known.  in C:\WebData\lab7\task_1\download.php on line 26
+[22-May-2023 18:48:10 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:48:10 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:48:10 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:26
+[22-May-2023 18:50:42 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:50:42 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:50:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:50:42 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:50:42 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:50:42 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:50:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:50:42 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:51:48 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp3888391.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:51:48 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:51:48 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:51:48 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp3888391.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:52:28 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:52:28 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:52:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:52:28 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:52:28 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:52:28 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:52:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:52:28 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:56:54 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:56:54 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:56:54 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:56:54 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = TRUE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:56:54 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:56:54 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:56:54 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:56:54 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = TRUE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:58:34 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp4099258.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:58:34 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:58:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:58:34 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp4099258.jpg', $use_include_path = TRUE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:58:37 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:58:37 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:58:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:58:37 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = TRUE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 18:58:37 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 34
+[22-May-2023 18:58:37 Europe/Minsk] PHP Stack trace:
+[22-May-2023 18:58:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 18:58:37 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = TRUE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:34
+[22-May-2023 19:05:40 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:05:40 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:05:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:05:40 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:05:40 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:05:40 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:05:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:05:40 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:06:45 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp3951102.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:06:45 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:06:45 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:06:45 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp3951102.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:07:54 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/yU5c9ae.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:07:54 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:07:54 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:07:54 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/yU5c9ae.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:08:56 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp4089170.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:08:56 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:08:56 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:08:56 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp4089170.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:09:19 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:09:19 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:09:19 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:09:19 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:09:19 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:09:19 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:09:19 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:09:19 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:10:05 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:10:05 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:10:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:10:05 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:10:05 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:10:05 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:10:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:10:05 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:11:34 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp1837539.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:11:34 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:11:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:11:34 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp1837539.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:12:52 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp1860707.png): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:12:52 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:12:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:12:52 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp1860707.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:13:11 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:13:11 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:13:11 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:13:11 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:13:11 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:13:11 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:13:11 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:13:11 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:13:53 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp2538497.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:13:53 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:13:53 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:13:53 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp2538497.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:13:59 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:13:59 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:13:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:13:59 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:13:59 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:13:59 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:13:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:13:59 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:14:29 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp1891963.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:14:29 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:14:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:14:29 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp1891963.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:15:18 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:15:18 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:15:18 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:15:18 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:15:18 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:15:18 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:15:18 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:15:18 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:02 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime/logo.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:02 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:02 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:03 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime/img/menu-mobile.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:03 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:03 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:03 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:03 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3882445.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:03 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:03 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:03 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3882445.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:04 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1837539.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:04 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:04 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:04 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1837539.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:05 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4741012.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:05 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:05 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4741012.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:06 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4828513.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:06 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:06 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:06 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4828513.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:06 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp5137079.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:06 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:06 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:06 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp5137079.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:07 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4673891.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:07 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:07 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:07 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4673891.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:08 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1818245.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:08 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:08 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:08 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1818245.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:09 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734306.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:09 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:09 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:09 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734306.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:10 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4684324.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:10 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:10 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:10 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4684324.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:11 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734369.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:11 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:11 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:11 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734369.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:12 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1916852.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:12 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:12 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:12 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1916852.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:12 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3951102.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:12 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:12 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:12 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3951102.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:13 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4099125.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:13 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:13 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4099125.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:14 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091452.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:14 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:14 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:14 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091452.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:14 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3888391.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:14 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:14 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:14 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3888391.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:15 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091912.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:15 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:15 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:15 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091912.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:15 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/2ddplhM.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:15 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:15 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:15 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/2ddplhM.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:16 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3904340.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:16 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:16 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3904340.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:17 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/D5t2Xce.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:17 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:17 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:17 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/D5t2Xce.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:17 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3585378.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:17 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:17 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:17 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3585378.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:18 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1993659.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:18 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:18 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:18 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1993659.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:19 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2700770.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:19 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:19 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:19 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2700770.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:19 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1900340.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:19 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:19 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:19 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1900340.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:20 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2284078.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:20 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:20 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2284078.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:21 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/jgj6Feb.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:21 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:21 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:21 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/jgj6Feb.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:22 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1872038.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:22 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:22 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:22 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1872038.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:22 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime/logo.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:22 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:22 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:22 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:23 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2172664.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:23 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:23 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:23 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2172664.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:23 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/anime/img/menu-mobile.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:23 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:23 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:23 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/anime/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:24 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3882445.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:24 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:24 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:24 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3882445.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:24 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1891962.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:24 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:24 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:24 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1891962.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:25 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1837539.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:25 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:25 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:25 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1837539.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:25 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4741012.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:25 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:25 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:25 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4741012.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:26 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4828513.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:26 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:26 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4828513.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:27 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp5137079.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:27 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:27 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:27 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp5137079.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:28 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4673891.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:28 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:28 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:28 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4673891.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:29 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1818245.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:29 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:29 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1818245.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:29 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734306.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:29 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:29 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734306.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:30 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4684324.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:30 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:30 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:30 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4684324.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:30 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734369.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:30 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:30 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:30 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4734369.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:31 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1916852.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:31 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:31 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:31 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1916852.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:32 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3951102.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:32 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:32 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:32 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3951102.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:32 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4099125.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:32 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:32 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:32 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4099125.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:33 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091452.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:33 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:33 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:33 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091452.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:34 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3888391.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:34 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:34 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3888391.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:34 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091912.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:34 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:34 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091912.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:35 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/2ddplhM.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:35 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:35 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:35 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/2ddplhM.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:36 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3904340.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:36 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:36 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3904340.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:36 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/D5t2Xce.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:36 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:36 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/D5t2Xce.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:37 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3585378.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:37 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:37 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3585378.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:38 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1993659.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:38 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:38 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1993659.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:38 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2700770.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:38 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:38 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2700770.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:39 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1900340.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:39 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:39 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:39 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1900340.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:39 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2284078.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:39 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:39 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:39 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2284078.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:40 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/jgj6Feb.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:40 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:40 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/jgj6Feb.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:41 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1872038.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:41 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:41 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1872038.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:42 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2172664.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:42 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:42 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2172664.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:42 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1891962.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:42 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:42 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1891962.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:43 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/q63WjmJ.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:43 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:43 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:43 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/q63WjmJ.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:44 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/jJYOGTC.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:44 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:44 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:44 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/jJYOGTC.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:44 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3904343.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:44 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:44 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:44 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp3904343.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:45 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1891963.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:45 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:45 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:45 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp1891963.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:45 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4092120.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:45 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:45 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:45 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4092120.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:46 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/ORy33o6.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:46 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:46 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:46 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/ORy33o6.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:46 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2119475.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:46 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:46 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:46 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2119475.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:46 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/yU5c9ae.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:46 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:46 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:46 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/yU5c9ae.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:47 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2212329.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:47 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:47 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:47 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2212329.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:47 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2640663.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:47 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:47 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:47 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2640663.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:48 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091627.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:48 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:48 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:48 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091627.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:48 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2510144.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:48 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:48 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:48 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp2510144.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:49 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091254.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:49 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:49 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4091254.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:50 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4089170.jpg): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:50 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:50 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4089170.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:16:50 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4088469.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\WebData\lab7\task_1\download.php on line 38
+[22-May-2023 19:16:50 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:16:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:16:50 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/categories/animehttps://wallpapercave.com/wpt/wp4088469.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:38
+[22-May-2023 19:17:14 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:17:14 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:17:14 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:17:14 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:17:14 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:17:14 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:17:14 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:17:14 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:18:16 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp5137079.png): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:18:16 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:18:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:18:16 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp5137079.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:19:21 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp1993659.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:19:21 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:19:21 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:19:21 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp1993659.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:20:38 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:20:38 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:20:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:20:38 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:20:38 Europe/Minsk] PHP Warning:  file_get_contents(/img/menu-mobile.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:20:38 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:20:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:20:38 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/menu-mobile.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:20:41 Europe/Minsk] PHP Warning:  file_get_contents(https://wallpapercave.com/wpt/wp4091562.jpg): Failed to open stream: HTTP request failed! in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:20:41 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:20:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:20:41 Europe/Minsk] PHP   2. file_get_contents($filename = 'https://wallpapercave.com/wpt/wp4091562.jpg', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:20:55 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:20:55 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:20:55 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:20:55 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:20:55 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:20:55 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:20:55 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:20:55 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:21:06 Europe/Minsk] PHP Warning:  file_get_contents(/logo.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:21:06 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:21:06 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:21:06 Europe/Minsk] PHP   2. file_get_contents($filename = '/logo.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35
+[22-May-2023 19:21:06 Europe/Minsk] PHP Warning:  file_get_contents(/img/instagram.png): Failed to open stream: No such file or directory in C:\WebData\lab7\task_1\download.php on line 35
+[22-May-2023 19:21:06 Europe/Minsk] PHP Stack trace:
+[22-May-2023 19:21:06 Europe/Minsk] PHP   1. {main}() C:\WebData\lab7\task_1\download.php:0
+[22-May-2023 19:21:06 Europe/Minsk] PHP   2. file_get_contents($filename = '/img/instagram.png', $use_include_path = FALSE, $context = resource(4) of type (stream-context)) C:\WebData\lab7\task_1\download.php:35

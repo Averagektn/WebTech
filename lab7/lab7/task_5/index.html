@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mailer</title>
+</head>
+<body>
+<h1>Mailer</h1>
+
+<form method="post" action="send_email.php" enctype="multipart/form-data">
+  <label for="name">Name:</label>
+  <br>
+  <input type="text" id="name" name="name" required>
+  <br><br>
+
+  <label for="email">Email:</label>
+  <br>
+  <input type="email" id="email" name="email" required>
+  <br><br>
+
+  <label for="message">Message:</label>
+  <br>
+  <textarea id="message" name="message" required></textarea>
+  <br><br>
+
+  <label for="attachment">Attachments:</label>
+  <br>
+  <input type="file" id="attachment" name="attachment[]" multiple>
+  <br><br>
+
+  <label for="captcha">Enter text from captcha:</label>
+  <br>
+  <img src="captcha.php" alt="Captcha_ERROR">
+  <br>
+  <input type="text" id="captcha" name="captcha" required>
+  <br><br>
+
+  <input type="submit" value="Send">
+</form>
+</body>
+</html>
