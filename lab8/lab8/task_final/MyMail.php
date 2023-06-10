@@ -12,8 +12,8 @@ function Send($name, $to, $body): bool
         $mail->SMTPAuth = true;
 
         $mail->Host = 'smtp.gmail.com';
-        $mail->Username = "rylonoboev2004@gmail.com";
-        $mail->Password = "hvzpmlxunihfynyy";
+        $mail->Username = "MAIL";
+        $mail->Password = "PASSWORD";
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
         $mail->Subject = "WBCafe";
