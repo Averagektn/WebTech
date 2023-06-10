@@ -3,9 +3,9 @@ require_once '../template.class.php';
 session_start();
 
 $db_host = "localhost";
-$db_name = "lab8";
-$db_user = "root";
-$db_pass = "Oboev54";
+$db_name = "NAME";
+$db_user = "USER";
+$db_pass = "PASSWORD";
 $db = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
 $email = $_POST['email'];
