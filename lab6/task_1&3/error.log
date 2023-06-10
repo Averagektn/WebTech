@@ -1,0 +1,90 @@
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Warning:  scandir(uploads/): The system cannot find the file specifi (code: 2) in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Warning:  scandir(uploads/): Failed to open directory: No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab6\task_1\index.php on line 18
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Warning:  scandir(uploads/): The system cannot find the file specifi (code: 2) in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Warning:  scandir(uploads/): Failed to open directory: No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab6\task_1\index.php on line 18
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:07:21 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Warning:  scandir(uploads/): The system cannot find the file specifi (code: 2) in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Warning:  scandir(uploads/): Failed to open directory: No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab6\task_1\index.php on line 18
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Warning:  scandir(uploads/): The system cannot find the file specifi (code: 2) in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Warning:  scandir(uploads/): Failed to open directory: No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   2. scandir($directory = 'uploads/') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab6\task_1\index.php on line 18
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:08:03 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Warning:  scandir(uploads): The system cannot find the file specifi (code: 2) in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   2. scandir($directory = 'uploads') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Warning:  scandir(uploads): Failed to open directory: No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   2. scandir($directory = 'uploads') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   2. scandir($directory = 'uploads') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab6\task_1\index.php on line 18
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Warning:  scandir(uploads): The system cannot find the file specifi (code: 2) in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   2. scandir($directory = 'uploads') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Warning:  scandir(uploads): Failed to open directory: No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   2. scandir($directory = 'uploads') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\WebData\lab6\task_1\index.php on line 17
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   2. scandir($directory = 'uploads') C:\WebData\lab6\task_1\index.php:17
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab6\task_1\index.php on line 18
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP Stack trace:
+[25-Apr-2023 22:12:30 Europe/Minsk] PHP   1. {main}() C:\WebData\lab6\task_1\index.php:0
