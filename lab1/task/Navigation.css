@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #ad265f, #3f7cbf, #4c2b0f);  */
+    /* background: linear-gradient(to right, #8c1e4a, #305c92, #3b220c); */
+    background: linear-gradient(to right, #621432, #2a4b7f, #2d1b08);
+}
+
+.MainNavigation {
+    position: fixed;
+    font-family: 'Yeseva One';
+    display: flex;
+    justify-content: center;
+    background-color: #292E49;
+    height: 7vh;
+    flex-flow: row;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.CafeName {
+    flex: 1;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    margin-left: 0%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.NavigationBar {
+    flex: 3;
+    font-family: 'Gentium Book Basic', serif;
+    display: flex;
+    align-content: right;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+.Home {
+    font-size: 100%;
+    background: none;
+    border: none;
+}
+
+.Home:hover {
+    cursor: pointer;
+    border-top: 3px solid white;
+}
+
+.Menu {
+    font-size: 100%;
+    background: none;
+    border: none;
+}
+
+.Menu:hover {
+    cursor: pointer;
+    border-top: 3px solid white;
+}
+
+.Booking {
+    font-size: 100%;
+    background: none;
+    border: none;
+}
+
+.Booking:hover {
+    cursor: pointer;
+    border-top: 3px solid white;
+}
+
+@media(max-height: 400px) {
+    .MainNav {
+        height: 15vh;
+    }
+    .CafeName {
+        font-size: 4vw;
+    }
+}
+

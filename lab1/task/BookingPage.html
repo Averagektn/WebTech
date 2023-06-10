@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="BookingPage.css">
+    <link rel="stylesheet" href="Navigation.css">
+    <link rel="stylesheet" href="Bottom.css">
+    <title>CafeBook</title>
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="MainNavigation">
+        <header class="CafeName">
+            CafeName
+        </header>
+
+        <div class="NavigationBar">
+            <button onclick="document.location='index.html'" class="Home" type="button" name="Home">
+                Home
+            </button>
+
+            <button onclick="document.location='MenuPage.html'" class="Menu" type="button" name="Menu">
+                Menu
+            </button>
+            <button class="Booking" type="button" name="Reservation">
+                Booking
+            </button>
+        </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////// -->
+
+    <article class="BookingArea">
+
+        <div class="Images">
+            <img class="FirstIm" src="Images/LeftImage.png" alt="">
+            <img class="SecondIm" src="Images/RightImage.png" alt="">
+        </div>
+
+        <div class="BookZone">
+            <p class="SectorName">
+                <b>Just the right food</b>
+            </p>
+            <img class="decor2" src="Images/GoldThing.png" alt="">
+            <p class="Review">
+                If you’ve been to one of our restaurants, you’ve seen – and<br>
+                tasted – what keeps our customers coming back for more.<br>
+                Perfect materials and freshly baked food.<br>
+
+                Delicious Lambda cakes, muffins, and gourmet coffees make<br>
+                us hard to resist! Stop in today and check us out! Perfect<br>
+                materials and freshly baked food.<br>
+            </p>
+            <!-- ///////////////// -->
+            <form class = "buttons" onsubmit="alert('Success!')" >
+                <div class ="Name">
+                    <label class="Label" for="NameI">Name</label> 
+                    <input class="Input" type="text" required name="name" id="NameI" placeholder="  your name *" style="padding: 2px 1px; border: 2px solid #c9a131">
+                </div>
+                <div class="Email">
+                    <label class="Label" for="EmailI">Email</label> 
+                    <input class="Input" type="email"required name="email" id="EmailI" placeholder="  your email *">
+               </div>
+               <div class="Date">
+                    <label class="Label" for="DateI">Date</label> 
+                    <input required="" type="text" class="Input" required placeholder="  date *" id="DateI" onfocus="(this.type='date')"/>
+                    <!-- <input class="InputDate" type="date" name="date" id="DateI" placeholder="date *"> -->
+               </div>
+                <div class="Number">
+                    <label class="Label" for="NumberI">Party number</label> 
+                    <select class="Input" required id="Number">
+                        <option value="" disabled selected>&nbsp&nbspparty number</option>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">3</option>
+                        <option value="four">4</option>
+                    </select>
+                </div>
+                <div class="button">
+                    <button  class="InputButton" type="submit" name="Input" >Book now!</button>
+                </div>
+            </form>
+            <!-- ///////////////////// -->
+        </div>
+
+    </article>
+
+    <!-- ////////////////////////////////////////////////////////// -->
+    <footer class="information">
+        <div class="openignHour">
+            <p class="Hour">
+                <b>We are open:</b>
+            </p>
+            <img class="decor" src="Images/WhiteThing4.png" alt="">
+            <p>
+                <b>Mon-Thu: </b> 7:00am-8:00pm<br>
+                <b>Fri-Sun: </b> 7:00am-10:00pm
+            </p>
+        </div>
+        <div class="Location">
+            <p class="Local">
+                <b>Our Location</b>
+            </p>
+            <img class="decor" src="Images/WhiteThing4.png" alt="">
+            <p>
+                <b>19th Paradise Street Sitia<br>
+                    128 Meserole Avenu</b>
+        </div>
+    </footer>
+</body>

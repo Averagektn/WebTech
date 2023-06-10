@@ -1,0 +1,251 @@
+.Home {
+    color: #9CA092;
+}
+
+.Menu {
+    color: #9CA092;
+}
+
+.Booking {
+    color: white;
+}
+
+@media(max-height: 400px) {
+    .MainNav {
+        height: 15vh;
+    }
+    .CafeName {
+        font-size: 4vw;
+    }
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.BookingArea {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 5vw;
+}
+
+.Images {
+    display: flex;
+    width:30%;
+    flex-flow: row;
+    justify-content: space-around;
+    min-width: 320px;
+}
+
+.BookZone {
+    width:30%;
+    display: flex;
+    flex-flow: column;
+    min-width: 320px;
+    align-items: center;
+}
+
+.FirstIm {
+    width:45%;
+    margin-right: 1vw;
+}
+
+.SecondIm {
+    width:45%;
+}
+
+.SectorName {
+    text-align: center;
+    font-size: 2vw;
+    color: #cc9900;
+}
+
+.Review {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    color: white;
+}
+
+.buttons {
+   
+    width: 100%;
+    display: grid;
+    column-gap: 1vw;
+    grid-template-areas:
+        "A B"
+        "C D"
+        "E E";
+}
+
+.Label {
+    color: #cc9900;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.Input {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    width:90%;
+    height: 2vw;
+}
+
+select {
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    color: #9e9e9e;
+    font-size: 1vw;
+}
+
+option:not(:first-of-type) {
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Name {
+    margin-bottom: 1vw;
+    grid-area: A;
+}
+
+.Email {
+    margin-bottom: 1vw;
+    grid-area: B;
+}
+
+.Date {
+    margin-bottom: 1vw;
+    grid-area: C;
+}
+
+.Number {
+    margin-bottom: 1vw;
+    grid-area: D;
+}
+
+#Number{
+    border: solid black 2px ;
+    border-radius: 2px;
+}
+
+.button{
+    grid-area: E;
+    display: flex;
+    justify-content: center;
+}
+
+.InputButton{
+    background-color: #cc9900;
+    font-family: 'Open Sans', sans-serif;
+    Color: white;
+    border: none;
+    height: 2vw;
+    width: 50%;
+}
+
+input,
+label {
+    display: block;
+}
+
+.decor2 {
+    width: 50%;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+@media (max-width: 780px) {
+
+    .Label{
+        font-size: 2.5vw;
+    }
+
+    .Input{
+        height: 2.5vw;
+    }
+
+    #Number{
+        height: 3.5vw;
+        font-size: 2vw;
+    }
+
+    .InputButton{
+        height: 4vw;
+    }
+
+
+    .decor2 {
+        width: 60%;
+    }
+
+    .Review {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .decor {
+        width: 60%;
+
+    }
+
+    .SectorName {
+        font-size: 4vw;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .Label{
+        font-size: 3.5vw;
+    }
+
+    .Input{
+        height: 4.5vw;
+    }
+
+    #Number {
+        height: 6vw;
+        font-size: 3.5vw;
+    }
+
+    .InputButton {
+        height: 6vw;
+    }
+
+
+    .decor2 {
+        width: 60%;
+    }
+
+    .Review {
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+
+    .decor {
+        width: 60%;
+
+    }
+
+    .SectorName {
+        font-size: 5vw;
+    }
+}
+
+@media(max-height: 400px) {
+
+    .InputButton{
+        height: 4vw;
+    }
+
+    .Review{
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .SectorName{
+        font-size: 4vw;
+    }
+}
