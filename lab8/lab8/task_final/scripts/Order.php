@@ -2,10 +2,10 @@
 require_once '../MyMail.php';
 require_once '../template.class.php';
 
-$db_host = "localhost";
-$db_name = "lab8";
-$db_user = "root";
-$db_pass = "Oboev54";
+$db_host = "HOST";
+$db_name = "NAME";
+$db_user = "USER";
+$db_pass = "PASSWORD";
 $db = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
 $name = $_POST['name'];
