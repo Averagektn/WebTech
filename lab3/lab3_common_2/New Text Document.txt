@@ -1,0 +1,8 @@
+a
+ABC
+abc
+BCD
+bcd
+qqq
+xyz 
+z

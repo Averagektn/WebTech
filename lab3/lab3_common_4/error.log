@@ -1,0 +1,65 @@
+[28-Mar-2023 22:31:36 Europe/Minsk] PHP Warning:  Undefined array key "dir" in C:\WebData\lab3\lab3_common_4\movea.php on line 6
+[28-Mar-2023 22:31:36 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:31:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:31:36 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab3\lab3_common_4\movea.php on line 6
+[28-Mar-2023 22:31:36 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:31:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:35:07 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: basename(): Argument #1 ($path) must be of type string, array given in C:\WebData\lab3\lab3_common_4\movea.php:9
+Stack trace:
+#0 C:\WebData\lab3\lab3_common_4\movea.php(9): basename(Array)
+#1 {main}
+  thrown in C:\WebData\lab3\lab3_common_4\movea.php on line 9
+[28-Mar-2023 22:36:18 Europe/Minsk] PHP Warning:  rename(PhpStorm-2022.3.2.exe,C://PhpStorm-2022.3.2.exe): The system cannot find the file specified (code: 2) in C:\WebData\lab3\lab3_common_4\movea.php on line 9
+[28-Mar-2023 22:36:18 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:36:18 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:36:18 Europe/Minsk] PHP   2. rename($from = 'PhpStorm-2022.3.2.exe', $to = 'C://PhpStorm-2022.3.2.exe') C:\WebData\lab3\lab3_common_4\movea.php:9
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Warning:  Undefined array key "full_filename" in C:\WebData\lab3\lab3_common_4\movea.php on line 5
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab3\lab3_common_4\movea.php on line 5
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\WebData\lab3\lab3_common_4\movea.php on line 7
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP   2. file_exists($filename = NULL) C:\WebData\lab3\lab3_common_4\movea.php:7
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\WebData\lab3\lab3_common_4\movea.php on line 12
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:56:05 Europe/Minsk] PHP   2. file_exists($filename = NULL) C:\WebData\lab3\lab3_common_4\movea.php:12
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Warning:  Undefined array key "file" in C:\WebData\lab3\lab3_common_4\movea.php on line 5
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab3\lab3_common_4\movea.php on line 5
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\WebData\lab3\lab3_common_4\movea.php on line 7
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP   2. file_exists($filename = NULL) C:\WebData\lab3\lab3_common_4\movea.php:7
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\WebData\lab3\lab3_common_4\movea.php on line 12
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 22:59:52 Europe/Minsk] PHP   2. file_exists($filename = NULL) C:\WebData\lab3\lab3_common_4\movea.php:12
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Warning:  Undefined array key "file" in C:\WebData\lab3\lab3_common_4\movea.php on line 5
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type null in C:\WebData\lab3\lab3_common_4\movea.php on line 5
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\WebData\lab3\lab3_common_4\movea.php on line 7
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP   2. file_exists($filename = NULL) C:\WebData\lab3\lab3_common_4\movea.php:7
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in C:\WebData\lab3\lab3_common_4\movea.php on line 12
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 23:00:34 Europe/Minsk] PHP   2. file_exists($filename = NULL) C:\WebData\lab3\lab3_common_4\movea.php:12
+[28-Mar-2023 23:12:05 Europe/Minsk] PHP Warning:  unlink(istockphoto-486242045-612x612.jpg): No such file or directory in C:\WebData\lab3\lab3_common_4\movea.php on line 13
+[28-Mar-2023 23:12:05 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 23:12:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 23:12:05 Europe/Minsk] PHP   2. unlink($filename = 'istockphoto-486242045-612x612.jpg') C:\WebData\lab3\lab3_common_4\movea.php:13
+[28-Mar-2023 23:19:32 Europe/Minsk] PHP Warning:  unlink(C:\Windows\Temp\phpB627.tmp): No such file or directory in C:\WebData\lab3\lab3_common_4\movea.php on line 13
+[28-Mar-2023 23:19:32 Europe/Minsk] PHP Stack trace:
+[28-Mar-2023 23:19:32 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_4\movea.php:0
+[28-Mar-2023 23:19:32 Europe/Minsk] PHP   2. unlink($filename = 'C:\\Windows\\Temp\\phpB627.tmp') C:\WebData\lab3\lab3_common_4\movea.php:13

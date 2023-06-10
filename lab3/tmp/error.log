@@ -1,0 +1,44 @@
+[20-Mar-2023 19:03:48 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\WebData\lab3\tmp\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 7
+[20-Mar-2023 19:09:02 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\tmp\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 7
+[20-Mar-2023 19:11:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Undefined constant "STDIN" in C:\WebData\lab3\tmp\script.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 3
+[20-Mar-2023 19:11:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Undefined constant "STDIN" in C:\WebData\lab3\tmp\script.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 3
+[20-Mar-2023 19:12:03 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\tmp\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 7
+[20-Mar-2023 19:14:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\tmp\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 7
+[20-Mar-2023 19:15:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\tmp\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 7
+[20-Mar-2023 19:17:27 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\tmp\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 8
+[20-Mar-2023 19:24:11 Europe/Minsk] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\WebData\lab3\tmp\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 7
+[20-Mar-2023 19:26:15 Europe/Minsk] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\WebData\lab3\tmp\script.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 5
+[20-Mar-2023 19:26:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\WebData\lab3\tmp\script.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\tmp\script.php on line 12

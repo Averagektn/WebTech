@@ -1,0 +1,9 @@
+[22-Mar-2023 23:02:09 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "Collator" not found in C:\WebData\lab3\lab3_common_2\lab.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3_common_2\lab.php on line 15
+[23-Mar-2023 11:23:21 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: sort(): Argument #2 ($flags) must be of type int, Closure given in C:\WebData\lab3\lab3_common_2\lab.php:15
+Stack trace:
+#0 C:\WebData\lab3\lab3_common_2\lab.php(15): sort(Array, Object(Closure))
+#1 {main}
+  thrown in C:\WebData\lab3\lab3_common_2\lab.php on line 15

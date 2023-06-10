@@ -1,0 +1,5 @@
+[22-Mar-2023 22:39:22 Europe/Minsk] PHP Warning:  Array to string conversion in C:\WebData\lab3\lab3_common_1.php on line 8
+[22-Mar-2023 22:39:22 Europe/Minsk] PHP Stack trace:
+[22-Mar-2023 22:39:22 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3_common_1.php:0
+[22-Mar-2023 22:39:22 Europe/Minsk] PHP   2. process($arr = [0 => [0 => 1, 1 => 2, 2 => 3], 1 => [0 => 1, 1 => 2, 2 => 4], 2 => [0 => 1, 1 => 5, 2 => 3, 3 => '4', 4 => [...]]]) C:\WebData\lab3\lab3_common_1.php:28
+[22-Mar-2023 22:39:22 Europe/Minsk] PHP   3. array_unique($array = [0 => 1, 1 => 2, 2 => 3, 3 => 1, 4 => 2, 5 => 4, 6 => 1, 7 => 5, 8 => 3, 9 => '4', 10 => [0 => 6, 1 => 7, 2 => 4]]) C:\WebData\lab3\lab3_common_1.php:8

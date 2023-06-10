@@ -1,0 +1,214 @@
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 5
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:5
+[20-Mar-2023 18:42:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 13
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 5
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:5
+[20-Mar-2023 18:43:05 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 13
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 5
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:5
+[20-Mar-2023 18:43:06 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 13
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 5
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:5
+[20-Mar-2023 18:43:07 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 13
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 5
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:5
+[20-Mar-2023 18:43:08 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:13
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 13
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Warning:  Array to string conversion in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 4
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 6
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:6
+[20-Mar-2023 18:44:38 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 14
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Warning:  Array to string conversion in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 4
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 6
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:6
+[20-Mar-2023 18:44:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 14
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Warning:  Array to string conversion in C:\WebData\lab3\lab3.9\script.php on line 3
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Warning:  Undefined array key "delivery_date" in C:\WebData\lab3\lab3.9\script.php on line 4
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in C:\WebData\lab3\lab3.9\script.php on line 6
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP   2. DateTime::createFromFormat($format = 'd.m.Y', $datetime = NULL) C:\WebData\lab3\lab3.9\script.php:6
+[20-Mar-2023 18:44:41 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function modify() on bool in C:\WebData\lab3\lab3.9\script.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 14
+[20-Mar-2023 18:45:09 Europe/Minsk] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in C:\WebData\lab3\lab3.9\script.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 7
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP Warning:  file(holidays.txt): Failed to open stream: No such file or directory in C:\WebData\lab3\lab3.9\script.php on line 16
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP   2. file($filename = 'holidays.txt', $flags = 6) C:\WebData\lab3\lab3.9\script.php:16
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab3\lab3.9\script.php on line 18
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:46:51 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:48:28 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:30 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:31 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:31 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:32 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:32 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:33 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:33 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:33 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:35 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:35 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:35 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:37 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:38 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:55 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:48:56 Europe/Minsk] PHP Fatal error:  Uncaught Error: Cannot use object of type DateTime as array in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP Warning:  file(holidays.txt): Failed to open stream: No such file or directory in C:\WebData\lab3\lab3.9\script.php on line 16
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP   2. file($filename = 'holidays.txt', $flags = 6) C:\WebData\lab3\lab3.9\script.php:16
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\WebData\lab3\lab3.9\script.php on line 18
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 18:49:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 21:21:16 Europe/Minsk] PHP Warning:  Undefined variable $current_date in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 21:21:16 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 21:21:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
+[20-Mar-2023 21:21:16 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in C:\WebData\lab3\lab3.9\script.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 8
+[20-Mar-2023 21:39:19 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, DateTime given in C:\WebData\lab3\lab3.9\script.php:22
+Stack trace:
+#0 C:\WebData\lab3\lab3.9\script.php(22): date('N', Object(DateTime))
+#1 {main}
+  thrown in C:\WebData\lab3\lab3.9\script.php on line 22
+[20-Mar-2023 21:51:26 Europe/Minsk] PHP Warning:  Undefined array key "04" in C:\WebData\lab3\lab3.9\script.php on line 24
+[20-Mar-2023 21:51:26 Europe/Minsk] PHP Stack trace:
+[20-Mar-2023 21:51:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab3\lab3.9\script.php:0
