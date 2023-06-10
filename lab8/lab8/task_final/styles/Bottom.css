@@ -1,0 +1,46 @@
+.information {
+    display: flex;
+    height: 20vw;
+    background-color: black;
+    color: white;
+}
+
+.Location {
+    font-size: 1.5vw;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.openignHour {
+    font-size: 1.5vw;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.decor {
+    width: 40%;
+}
+
+
+@media (max-width: 480px) {
+
+    .information {
+        height: 40vw;
+    }
+
+    .Location {
+        font-size: 3vw;
+    }
+
+    .openignHour {
+        font-size: 3vw;
+    }
+}

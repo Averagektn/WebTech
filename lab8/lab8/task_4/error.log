@@ -1,0 +1,136 @@
+[29-May-2023 16:46:16 Europe/Minsk] PHP Warning:  file_get_contents(data.json): Failed to open stream: No such file or directory in C:\WebData\lab8\task_4\index.php on line 66
+[29-May-2023 16:46:16 Europe/Minsk] PHP Stack trace:
+[29-May-2023 16:46:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 16:46:16 Europe/Minsk] PHP   2. file_get_contents($filename = 'data.json') C:\WebData\lab8\task_4\index.php:66
+[29-May-2023 16:46:16 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\WebData\lab8\task_4\index.php:5
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(89): drawBarChart('\xD0\xA1\xD1\x82\xD0\xBE\xD0\xBB\xD0\xB1\xD1\x87\xD0\xB0\xD1...', Array, Array, '#FFFFFF', '#000000')
+#1 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 5
+[29-May-2023 16:46:51 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\WebData\lab8\task_4\index.php:5
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(89): drawBarChart('\xD0\xA1\xD1\x82\xD0\xBE\xD0\xBB\xD0\xB1\xD1\x87\xD0\xB0\xD1...', Array, Array, '#FFFFFF', '#000000')
+#1 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 5
+[29-May-2023 16:46:53 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\WebData\lab8\task_4\index.php:5
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(89): drawBarChart('\xD0\xA1\xD1\x82\xD0\xBE\xD0\xBB\xD0\xB1\xD1\x87\xD0\xB0\xD1...', Array, Array, '#FFFFFF', '#000000')
+#1 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 5
+[29-May-2023 16:46:54 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\WebData\lab8\task_4\index.php:5
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(89): drawBarChart('\xD0\xA1\xD1\x82\xD0\xBE\xD0\xBB\xD0\xB1\xD1\x87\xD0\xB0\xD1...', Array, Array, '#FFFFFF', '#000000')
+#1 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 5
+[29-May-2023 16:50:15 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\WebData\lab8\task_4\index.php:5
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(94): drawBarChart('\xD0\xA1\xD1\x82\xD0\xBE\xD0\xBB\xD0\xB1\xD1\x87\xD0\xB0\xD1...', Array, Array, '#FFFFFF', '#000000')
+#1 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 5
+[29-May-2023 16:50:16 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\WebData\lab8\task_4\index.php:5
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(94): drawBarChart('\xD0\xA1\xD1\x82\xD0\xBE\xD0\xBB\xD0\xB1\xD1\x87\xD0\xB0\xD1...', Array, Array, '#FFFFFF', '#000000')
+#1 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 5
+[29-May-2023 17:08:02 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:08:02 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:08:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:08:02 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 107], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:08:02 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:08:02 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:08:02 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:08:02 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 107], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:08:03 Europe/Minsk] PHP Fatal error:  Uncaught ValueError: imagecreatetruecolor(): Argument #2 ($height) must be greater than 0 in C:\WebData\lab8\task_4\index.php:13
+Stack trace:
+#0 C:\WebData\lab8\task_4\index.php(13): imagecreatetruecolor(100, 0)
+#1 C:\WebData\lab8\task_4\index.php(180): drawBarChart(Array, Array, '#FFFFFF', '#000000')
+#2 {main}
+  thrown in C:\WebData\lab8\task_4\index.php on line 13
+[29-May-2023 17:09:47 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:09:47 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:47 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:47 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 108], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:47 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:09:47 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:47 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:47 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 108], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:49 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:09:49 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:49 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 109], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:49 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:09:49 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:49 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 109], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:50 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:09:50 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:50 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 110], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:50 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:09:50 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:50 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 110], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:51 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:09:51 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:51 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:51 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 111], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:51 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:09:51 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:51 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:51 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 111], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:52 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:09:52 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:52 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 112], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:52 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:09:52 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:52 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 112], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:53 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:09:53 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:53 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:53 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 113], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:09:53 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:09:53 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:09:53 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:09:53 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 113], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:10:58 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:10:58 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:10:58 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:10:58 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 114], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:10:58 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:10:58 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:10:58 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:10:58 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 114], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:10:59 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:10:59 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:10:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:10:59 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 115], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:10:59 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:10:59 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:10:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:10:59 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 115], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:11:00 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:11:00 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:11:00 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:11:00 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 116], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:11:00 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:11:00 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:11:00 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:11:00 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 116], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:11:00 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:11:00 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:11:00 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:11:00 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 117], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:11:00 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:11:00 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:11:00 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:11:00 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 117], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:11:01 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 30
+[29-May-2023 17:11:01 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:11:01 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:11:01 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 118], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96
+[29-May-2023 17:11:01 Europe/Minsk] PHP Warning:  Undefined array key 0 in C:\WebData\lab8\task_4\index.php on line 42
+[29-May-2023 17:11:01 Europe/Minsk] PHP Stack trace:
+[29-May-2023 17:11:01 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_4\index.php:0
+[29-May-2023 17:11:01 Europe/Minsk] PHP   2. drawBarChart($values = ['2023-05-29' => 118], $labels = [0 => '2023-05-29'], $backgroundColor = '#FFFFFF', $borderColor = '#000000') C:\WebData\lab8\task_4\index.php:96

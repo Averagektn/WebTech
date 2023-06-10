@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preview generator</title>
+</head>
+<body>
+<h1>Preview generator</h1>
+
+<form action="preview.php" method="POST" enctype="multipart/form-data">
+    <label for="image">Choose image:</label>
+    <input type="file" name="image" id="image">
+    <br>
+    <label for="width">Width:</label>
+    <input type="number" name="width" id="width">
+    <br>
+    <label for="height">Height:</label>
+    <input type="number" name="height" id="height">
+    <br>
+    <input type="submit" value="Generate">
+</form>
+</body>
+</html>

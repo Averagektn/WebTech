@@ -1,0 +1,223 @@
+[28-May-2023 19:29:52 Europe/Minsk] PHP Warning:  Undefined variable $destinationPath in C:\WebData\lab8\task_2\preview.php on line 46
+[28-May-2023 19:29:52 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:29:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:29:52 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:29:52 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:29:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:29:52 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\phpBDD7.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = NULL) C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 19:29:52 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\phpBDD7.tmp') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:29:52 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): &quot;C:\Windows\Temp\phpBDD7.tmp&quot; is not a valid JPEG file in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:29:52 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:29:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:29:52 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\phpBDD7.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = NULL) C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 19:29:52 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\phpBDD7.tmp') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:29:52 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\WebData\lab8\task_2\preview.php:9
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(9): imagesx(false)
+#1 C:\WebData\lab8\task_2\preview.php(46): generateThumbnail('C:\\Windows\\Temp...', '100', '100', NULL)
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 9
+[28-May-2023 19:37:52 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:37:52 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:37:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:37:52 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php1A5.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 19:37:52 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\php1A5.tmp') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:37:52 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): &quot;C:\Windows\Temp\php1A5.tmp&quot; is not a valid JPEG file in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:37:52 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:37:52 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:37:52 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php1A5.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 19:37:52 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\php1A5.tmp') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:37:52 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\WebData\lab8\task_2\preview.php:9
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(9): imagesx(false)
+#1 C:\WebData\lab8\task_2\preview.php(46): generateThumbnail('C:\\Windows\\Temp...', '100', '100', 'C:\\RES')
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 9
+[28-May-2023 19:40:46 Europe/Minsk] PHP Warning:  Undefined variable $image in C:\WebData\lab8\task_2\preview.php on line 27
+[28-May-2023 19:40:46 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:40:46 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:40:46 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\phpA9B8.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:78
+[28-May-2023 19:40:46 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, null given in C:\WebData\lab8\task_2\preview.php:27
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(27): imagesx(NULL)
+#1 C:\WebData\lab8\task_2\preview.php(78): generateThumbnail('C:\\Windows\\Temp...', '100', '100', 'C:\\RES')
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 27
+[28-May-2023 19:41:14 Europe/Minsk] PHP Warning:  Undefined variable $image in C:\WebData\lab8\task_2\preview.php on line 27
+[28-May-2023 19:41:14 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:41:14 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:41:14 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php167D.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:78
+[28-May-2023 19:41:14 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, null given in C:\WebData\lab8\task_2\preview.php:27
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(27): imagesx(NULL)
+#1 C:\WebData\lab8\task_2\preview.php(78): generateThumbnail('C:\\Windows\\Temp...', '100', '100', 'C:\\RES')
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 27
+[28-May-2023 19:42:29 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\WebData\lab8\task_2\preview.php on line 10
+[28-May-2023 19:42:29 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:42:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:42:29 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php3E44.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:80
+[28-May-2023 19:42:29 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\php3E44.tmp') C:\WebData\lab8\task_2\preview.php:10
+[28-May-2023 19:42:29 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): &quot;C:\Windows\Temp\php3E44.tmp&quot; is not a valid JPEG file in C:\WebData\lab8\task_2\preview.php on line 10
+[28-May-2023 19:42:29 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:42:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:42:29 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php3E44.tmp', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:80
+[28-May-2023 19:42:29 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\php3E44.tmp') C:\WebData\lab8\task_2\preview.php:10
+[28-May-2023 19:42:29 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\WebData\lab8\task_2\preview.php:29
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(29): imagesx(false)
+#1 C:\WebData\lab8\task_2\preview.php(80): generateThumbnail('C:\\Windows\\Temp...', '100', '100', 'C:\\RES')
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 29
+[28-May-2023 19:46:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function exif_imagetype() in C:\WebData\lab8\task_2\preview.php:7
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(82): generateThumbnail('C:\\Windows\\Temp...', '100', '100', 'C:\\RES')
+#1 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 7
+[28-May-2023 19:51:26 Europe/Minsk] PHP Warning:  getimagesize(uwp3722289.jpeg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:51:26 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:51:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:51:26 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'uwp3722289.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:84
+[28-May-2023 19:51:26 Europe/Minsk] PHP   3. getimagesize($filename = 'uwp3722289.jpeg') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:51:26 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type bool in C:\WebData\lab8\task_2\preview.php on line 7
+[28-May-2023 19:51:26 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:51:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:51:26 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'uwp3722289.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:84
+[28-May-2023 19:51:26 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type bool in C:\WebData\lab8\task_2\preview.php on line 9
+[28-May-2023 19:51:26 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:51:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:51:26 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'uwp3722289.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:84
+[28-May-2023 19:51:26 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(uwp3722289.jpeg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 12
+[28-May-2023 19:51:26 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:51:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:51:26 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'uwp3722289.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:84
+[28-May-2023 19:51:26 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'uwp3722289.jpeg') C:\WebData\lab8\task_2\preview.php:12
+[28-May-2023 19:57:13 Europe/Minsk] PHP Warning:  Undefined array key "image_path" in C:\WebData\lab8\task_2\preview.php on line 75
+[28-May-2023 19:57:13 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:13 Europe/Minsk] PHP Warning:  rename(C:\RES\temp_image.tmp,C:\RES	emp_image.jpeg): The filename, directory name, or volume label syntax is incorrect (code: 123) in C:\WebData\lab8\task_2\preview.php on line 90
+[28-May-2023 19:57:13 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:13 Europe/Minsk] PHP   2. rename($from = 'C:\\RES\\temp_image.tmp', $to = 'C:\\RES\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:90
+[28-May-2023 19:57:13 Europe/Minsk] PHP Warning:  getimagesize(C:\RES	emp_image.jpeg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:57:13 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:13 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:13 Europe/Minsk] PHP   3. getimagesize($filename = 'C:\\RES\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:57:13 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type bool in C:\WebData\lab8\task_2\preview.php on line 7
+[28-May-2023 19:57:13 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:13 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:13 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type bool in C:\WebData\lab8\task_2\preview.php on line 10
+[28-May-2023 19:57:13 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:13 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:13 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(C:\RES	emp_image.jpeg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 13
+[28-May-2023 19:57:13 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:13 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:13 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\RES\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:13
+[28-May-2023 19:57:49 Europe/Minsk] PHP Warning:  rename(C:\RES\temp_image.tmp,C:\RES	emp_image.jpeg): The filename, directory name, or volume label syntax is incorrect (code: 123) in C:\WebData\lab8\task_2\preview.php on line 90
+[28-May-2023 19:57:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:49 Europe/Minsk] PHP   2. rename($from = 'C:\\RES\\temp_image.tmp', $to = 'C:\\RES\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:90
+[28-May-2023 19:57:49 Europe/Minsk] PHP Warning:  getimagesize(C:\RES	emp_image.jpeg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 19:57:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:49 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:49 Europe/Minsk] PHP   3. getimagesize($filename = 'C:\\RES\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 19:57:49 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type bool in C:\WebData\lab8\task_2\preview.php on line 7
+[28-May-2023 19:57:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:49 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:49 Europe/Minsk] PHP Warning:  Trying to access array offset on value of type bool in C:\WebData\lab8\task_2\preview.php on line 10
+[28-May-2023 19:57:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:49 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:49 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(C:\RES	emp_image.jpeg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 13
+[28-May-2023 19:57:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:57:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:57:49 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:57:49 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\RES\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:13
+[28-May-2023 19:58:16 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\WebData\lab8\task_2\preview.php on line 13
+[28-May-2023 19:58:16 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:58:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:58:16 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:58:16 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\RES\\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:13
+[28-May-2023 19:58:16 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): &quot;C:\RES\temp_image.jpeg&quot; is not a valid JPEG file in C:\WebData\lab8\task_2\preview.php on line 13
+[28-May-2023 19:58:16 Europe/Minsk] PHP Stack trace:
+[28-May-2023 19:58:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 19:58:16 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\RES\\temp_image.jpeg', $thumbnailWidth = '100', $thumbnailHeight = '100', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:93
+[28-May-2023 19:58:16 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\RES\\temp_image.jpeg') C:\WebData\lab8\task_2\preview.php:13
+[28-May-2023 20:08:08 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\WebData\lab8\task_2\preview.php on line 4
+[28-May-2023 20:08:08 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:08:08 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:08:08 Europe/Minsk] PHP   2. createPreview($sourceImagePath = 'C:\\RES\\uwp3722289.jpeg', $width = '100', $height = '100') C:\WebData\lab8\task_2\preview.php:27
+[28-May-2023 20:08:08 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\RES\\uwp3722289.jpeg') C:\WebData\lab8\task_2\preview.php:4
+[28-May-2023 20:08:08 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): &quot;C:\RES\uwp3722289.jpeg&quot; is not a valid JPEG file in C:\WebData\lab8\task_2\preview.php on line 4
+[28-May-2023 20:08:08 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:08:08 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:08:08 Europe/Minsk] PHP   2. createPreview($sourceImagePath = 'C:\\RES\\uwp3722289.jpeg', $width = '100', $height = '100') C:\WebData\lab8\task_2\preview.php:27
+[28-May-2023 20:08:08 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\RES\\uwp3722289.jpeg') C:\WebData\lab8\task_2\preview.php:4
+[28-May-2023 20:08:08 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\WebData\lab8\task_2\preview.php:6
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(6): imagesx(false)
+#1 C:\WebData\lab8\task_2\preview.php(27): createPreview('C:\\RES\\uwp37222...', '100', '100')
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 20:18:40 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Not a JPEG file: starts with 0x52 0x49 in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 20:18:40 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:18:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:18:40 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php5C23.tmp', $thumbnailWidth = '50', $thumbnailHeight = '50', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 20:18:40 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\php5C23.tmp') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 20:18:40 Europe/Minsk] PHP Warning:  imagecreatefromjpeg(): &quot;C:\Windows\Temp\php5C23.tmp&quot; is not a valid JPEG file in C:\WebData\lab8\task_2\preview.php on line 6
+[28-May-2023 20:18:40 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:18:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:18:40 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php5C23.tmp', $thumbnailWidth = '50', $thumbnailHeight = '50', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 20:18:40 Europe/Minsk] PHP   3. imagecreatefromjpeg($filename = 'C:\\Windows\\Temp\\php5C23.tmp') C:\WebData\lab8\task_2\preview.php:6
+[28-May-2023 20:18:40 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: imagesx(): Argument #1 ($image) must be of type GdImage, bool given in C:\WebData\lab8\task_2\preview.php:9
+Stack trace:
+#0 C:\WebData\lab8\task_2\preview.php(9): imagesx(false)
+#1 C:\WebData\lab8\task_2\preview.php(46): generateThumbnail('C:\\Windows\\Temp...', '50', '50', 'C:\\RES')
+#2 {main}
+  thrown in C:\WebData\lab8\task_2\preview.php on line 9
+[28-May-2023 20:18:49 Europe/Minsk] PHP Warning:  imagejpeg(thumbnails/64738cf91ff9d.jpg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 22
+[28-May-2023 20:18:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:18:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:18:49 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php7F3C.tmp', $thumbnailWidth = '50', $thumbnailHeight = '50', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:46
+[28-May-2023 20:18:49 Europe/Minsk] PHP   3. imagejpeg($image = class GdImage {  }, $file = 'thumbnails/64738cf91ff9d.jpg') C:\WebData\lab8\task_2\preview.php:22
+[28-May-2023 20:18:49 Europe/Minsk] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\WebData\lab8\task_2\preview.php:22) in C:\WebData\lab8\task_2\preview.php on line 53
+[28-May-2023 20:18:49 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:18:49 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:18:49 Europe/Minsk] PHP   2. header($header = 'Location: index.php') C:\WebData\lab8\task_2\preview.php:53
+[28-May-2023 20:20:48 Europe/Minsk] PHP Warning:  Undefined global variable $_SESSION in C:\WebData\lab8\task_2\index.php on line 26
+[28-May-2023 20:20:48 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:20:48 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\index.php:0
+[28-May-2023 20:21:24 Europe/Minsk] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\WebData\lab8\task_2\index.php on line 32
+[28-May-2023 20:21:24 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:21:24 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\index.php:0
+[28-May-2023 20:21:24 Europe/Minsk] PHP   2. session_start() C:\WebData\lab8\task_2\index.php:32
+[28-May-2023 20:21:31 Europe/Minsk] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\WebData\lab8\task_2\index.php on line 32
+[28-May-2023 20:21:31 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:21:31 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\index.php:0
+[28-May-2023 20:21:31 Europe/Minsk] PHP   2. session_start() C:\WebData\lab8\task_2\index.php:32
+[28-May-2023 20:38:33 Europe/Minsk] PHP Warning:  imagejpeg(C:\RES/thumbnails/647391999409a.jpg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 37
+[28-May-2023 20:38:33 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:38:33 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:38:33 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php9207.tmp', $thumbnailWidth = '500', $thumbnailHeight = '500', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:56
+[28-May-2023 20:38:33 Europe/Minsk] PHP   3. imagejpeg($image = class GdImage {  }, $file = 'C:\\RES/thumbnails/647391999409a.jpg') C:\WebData\lab8\task_2\preview.php:37
+[28-May-2023 20:38:42 Europe/Minsk] PHP Warning:  imagejpeg(C:\RES/thumbnails/647391a27efc2.jpg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 37
+[28-May-2023 20:38:42 Europe/Minsk] PHP Stack trace:
+[28-May-2023 20:38:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[28-May-2023 20:38:42 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\phpB4D2.tmp', $thumbnailWidth = '500', $thumbnailHeight = '500', $destinationPath = 'C:\\RES') C:\WebData\lab8\task_2\preview.php:56
+[28-May-2023 20:38:42 Europe/Minsk] PHP   3. imagejpeg($image = class GdImage {  }, $file = 'C:\\RES/thumbnails/647391a27efc2.jpg') C:\WebData\lab8\task_2\preview.php:37
+[31-May-2023 19:55:51 Europe/Minsk] PHP Warning:  imagejpeg(thumbnails/07:55:51 PM.jpg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 16
+[31-May-2023 19:55:51 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:55:51 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[31-May-2023 19:55:51 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\phpCFB8.tmp', $thumbnailWidth = '100', $thumbnailHeight = '500') C:\WebData\lab8\task_2\preview.php:35
+[31-May-2023 19:55:51 Europe/Minsk] PHP   3. imagejpeg($image = class GdImage {  }, $file = 'thumbnails/07:55:51 PM.jpg') C:\WebData\lab8\task_2\preview.php:16
+[31-May-2023 19:56:41 Europe/Minsk] PHP Warning:  imagejpeg(thumbnails/07:56:41PM.jpg): Failed to open stream: No such file or directory in C:\WebData\lab8\task_2\preview.php on line 16
+[31-May-2023 19:56:41 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:56:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_2\preview.php:0
+[31-May-2023 19:56:41 Europe/Minsk] PHP   2. generateThumbnail($sourceImage = 'C:\\Windows\\Temp\\php9358.tmp', $thumbnailWidth = '100', $thumbnailHeight = '500') C:\WebData\lab8\task_2\preview.php:35
+[31-May-2023 19:56:41 Europe/Minsk] PHP   3. imagejpeg($image = class GdImage {  }, $file = 'thumbnails/07:56:41PM.jpg') C:\WebData\lab8\task_2\preview.php:16

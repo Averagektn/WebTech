@@ -1,0 +1,59 @@
+[30-May-2023 21:21:58 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in C:\WebData\lab8\task_final\Registration_processing.php:21
+Stack trace:
+#0 C:\WebData\lab8\task_final\Registration_processing.php(21): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\WebData\lab8\task_final\Registration_processing.php on line 21
+[30-May-2023 21:23:04 Europe/Minsk] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'password' at row 1 in C:\WebData\lab8\task_final\Registration_processing.php:21
+Stack trace:
+#0 C:\WebData\lab8\task_final\Registration_processing.php(21): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\WebData\lab8\task_final\Registration_processing.php on line 21
+[30-May-2023 21:24:04 Europe/Minsk] PHP Warning:  Array to string conversion in C:\WebData\lab8\task_final\BookingPage.php on line 35
+[30-May-2023 21:24:04 Europe/Minsk] PHP Stack trace:
+[30-May-2023 21:24:04 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\Registration_processing.php:0
+[30-May-2023 21:24:04 Europe/Minsk] PHP   2. include() C:\WebData\lab8\task_final\Registration_processing.php:23
+[30-May-2023 21:24:04 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: Template::setPlaceholderDirect(): Argument #2 ($value) must be of type string, array given, called in C:\WebData\lab8\task_final\BookingPage.php on line 43 and defined in C:\WebData\lab8\task_final\template.class.php:44
+Stack trace:
+#0 C:\WebData\lab8\task_final\BookingPage.php(43): Template->setPlaceholderDirect('{EMAIL}', Array)
+#1 C:\WebData\lab8\task_final\Registration_processing.php(23): include('C:\\WebData\\lab8...')
+#2 {main}
+  thrown in C:\WebData\lab8\task_final\template.class.php on line 44
+[30-May-2023 21:45:11 Europe/Minsk] PHP Fatal error:  Uncaught Exception: Label [statistics] not found. in C:\WebData\lab8\task_final\template.class.php:98
+Stack trace:
+#0 [internal function]: Template->processLabels(Array)
+#1 C:\WebData\lab8\task_final\template.class.php(126): preg_replace_callback('/{LABEL="(.*)"}...', Array, '<!DOCTYPE html>...')
+#2 C:\WebData\lab8\task_final\Home.php(16): Template->processTemplate()
+#3 {main}
+  thrown in C:\WebData\lab8\task_final\template.class.php on line 98
+[31-May-2023 08:53:50 Europe/Minsk] PHP Warning:  file_get_contents(Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 08:53:50 Europe/Minsk] PHP Stack trace:
+[31-May-2023 08:53:50 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 08:53:50 Europe/Minsk] PHP   2. file_get_contents($filename = 'Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 08:54:31 Europe/Minsk] PHP Warning:  file_get_contents(../scripts/Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 08:54:31 Europe/Minsk] PHP Stack trace:
+[31-May-2023 08:54:31 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 08:54:31 Europe/Minsk] PHP   2. file_get_contents($filename = '../scripts/Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 08:54:32 Europe/Minsk] PHP Warning:  file_get_contents(../scripts/Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 08:54:32 Europe/Minsk] PHP Stack trace:
+[31-May-2023 08:54:32 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 08:54:32 Europe/Minsk] PHP   2. file_get_contents($filename = '../scripts/Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 08:54:42 Europe/Minsk] PHP Warning:  file_get_contents(../templates/Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 08:54:42 Europe/Minsk] PHP Stack trace:
+[31-May-2023 08:54:42 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 08:54:42 Europe/Minsk] PHP   2. file_get_contents($filename = '../templates/Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 08:54:44 Europe/Minsk] PHP Warning:  file_get_contents(../templates/Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 08:54:44 Europe/Minsk] PHP Stack trace:
+[31-May-2023 08:54:44 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 08:54:44 Europe/Minsk] PHP   2. file_get_contents($filename = '../templates/Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 09:01:20 Europe/Minsk] PHP Warning:  file_get_contents(templates/Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 09:01:20 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:01:20 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 09:01:20 Europe/Minsk] PHP   2. file_get_contents($filename = 'templates/Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 09:02:44 Europe/Minsk] PHP Warning:  file_get_contents(Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 09:02:44 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:02:44 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 09:02:44 Europe/Minsk] PHP   2. file_get_contents($filename = 'Registration.tpl') C:\WebData\lab8\task_final\index.php:4
+[31-May-2023 09:06:38 Europe/Minsk] PHP Warning:  file_get_contents(templates/Registration.tpl): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\index.php on line 4
+[31-May-2023 09:06:38 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:06:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\index.php:0
+[31-May-2023 09:06:38 Europe/Minsk] PHP   2. file_get_contents($filename = 'templates/Registration.tpl') C:\WebData\lab8\task_final\index.php:4

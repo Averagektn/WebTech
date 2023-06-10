@@ -1,0 +1,119 @@
+[31-May-2023 09:26:31 Europe/Minsk] PHP Warning:  require_once(../task_final/template.class.php): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\scripts\Home.php on line 2
+[31-May-2023 09:26:31 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:26:31 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Home.php:0
+[31-May-2023 09:26:31 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required '../task_final/template.class.php' (include_path='.;C:\php\pear') in C:\WebData\lab8\task_final\scripts\Home.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab8\task_final\scripts\Home.php on line 2
+[31-May-2023 09:37:15 Europe/Minsk] PHP Warning:  require(MyMail.php): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\scripts\Order.php on line 2
+[31-May-2023 09:37:15 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:37:15 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Order.php:0
+[31-May-2023 09:37:15 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'MyMail.php' (include_path='.;C:\php\pear') in C:\WebData\lab8\task_final\scripts\Order.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab8\task_final\scripts\Order.php on line 2
+[31-May-2023 09:39:01 Europe/Minsk] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\WebData\lab8\task_final\mail\PHPMailer.php:2017
+Stack trace:
+#0 C:\WebData\lab8\task_final\mail\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 M...', 'You have booked...')
+#1 C:\WebData\lab8\task_final\mail\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\WebData\lab8\task_final\mail\MyMail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\WebData\lab8\task_final\scripts\Order.php(24): Send('WTCafe', 'nglushachenko1@...', 'You have booked...')
+#4 {main}
+  thrown in C:\WebData\lab8\task_final\mail\PHPMailer.php on line 2017
+[31-May-2023 09:41:17 Europe/Minsk] PHP Warning:  require(../mail/MyMail.php): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\scripts\Order.php on line 2
+[31-May-2023 09:41:17 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:41:17 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Order.php:0
+[31-May-2023 09:41:17 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required '../mail/MyMail.php' (include_path='.;C:\php\pear') in C:\WebData\lab8\task_final\scripts\Order.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab8\task_final\scripts\Order.php on line 2
+[31-May-2023 09:41:37 Europe/Minsk] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer" in C:\WebData\lab8\task_final\PHPMailer.php:2017
+Stack trace:
+#0 C:\WebData\lab8\task_final\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 M...', 'You have booked...')
+#1 C:\WebData\lab8\task_final\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\WebData\lab8\task_final\MyMail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\WebData\lab8\task_final\scripts\Order.php(24): Send('WTCafe', 'nglushachenko1@...', 'You have booked...')
+#4 {main}
+  thrown in C:\WebData\lab8\task_final\PHPMailer.php on line 2017
+[31-May-2023 09:43:47 Europe/Minsk] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\PHPMailer\PHPMailer" in C:\WebData\lab8\task_final\PHPMailer.php:2017
+Stack trace:
+#0 C:\WebData\lab8\task_final\PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 31 M...', 'You have booked...')
+#1 C:\WebData\lab8\task_final\PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\WebData\lab8\task_final\MyMail.php(38): PHPMailer\PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\WebData\lab8\task_final\scripts\Order.php(24): Send('WTCafe', 'nglushachenko1@...', 'You have booked...')
+#4 {main}
+  thrown in C:\WebData\lab8\task_final\PHPMailer.php on line 2017
+[31-May-2023 09:48:16 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in C:\WebData\lab8\task_final\MyMail.php:9
+Stack trace:
+#0 C:\WebData\lab8\task_final\scripts\Order.php(24): Send('WTCafe', 'nglushachenko1@...', 'You have booked...')
+#1 {main}
+  thrown in C:\WebData\lab8\task_final\MyMail.php on line 9
+[31-May-2023 09:51:16 Europe/Minsk] PHP Warning:  require(../mail/MyMail.php): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\scripts\Registration_processing.php on line 2
+[31-May-2023 09:51:16 Europe/Minsk] PHP Stack trace:
+[31-May-2023 09:51:16 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Registration_processing.php:0
+[31-May-2023 09:51:16 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required '../mail/MyMail.php' (include_path='.;C:\php\pear') in C:\WebData\lab8\task_final\scripts\Registration_processing.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab8\task_final\scripts\Registration_processing.php on line 2
+[31-May-2023 10:15:26 Europe/Minsk] PHP Warning:  file_get_contents(../): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\scripts\Statistics.php on line 105
+[31-May-2023 10:15:26 Europe/Minsk] PHP Stack trace:
+[31-May-2023 10:15:26 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 10:15:26 Europe/Minsk] PHP   2. file_get_contents($filename = '../') C:\WebData\lab8\task_final\scripts\Statistics.php:105
+[31-May-2023 10:15:26 Europe/Minsk] PHP Fatal error:  Uncaught Exception: Label [cafe_name] not found. in C:\WebData\lab8\task_final\template.class.php:98
+Stack trace:
+#0 [internal function]: Template->processLabels(Array)
+#1 C:\WebData\lab8\task_final\template.class.php(126): preg_replace_callback('/{LABEL="(.*)"}...', Array, '<!DOCTYPE html>...')
+#2 C:\WebData\lab8\task_final\scripts\Statistics.php(108): Template->processTemplate()
+#3 {main}
+  thrown in C:\WebData\lab8\task_final\template.class.php on line 98
+[31-May-2023 12:50:29 Europe/Minsk] PHP Warning:  file_get_contents(../): Failed to open stream: No such file or directory in C:\WebData\lab8\task_final\scripts\Statistics.php on line 105
+[31-May-2023 12:50:29 Europe/Minsk] PHP Stack trace:
+[31-May-2023 12:50:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 12:50:29 Europe/Minsk] PHP   2. file_get_contents($filename = '../') C:\WebData\lab8\task_final\scripts\Statistics.php:105
+[31-May-2023 12:50:29 Europe/Minsk] PHP Fatal error:  Uncaught Exception: Label [cafe_name] not found. in C:\WebData\lab8\task_final\template.class.php:98
+Stack trace:
+#0 [internal function]: Template->processLabels(Array)
+#1 C:\WebData\lab8\task_final\template.class.php(126): preg_replace_callback('/{LABEL="(.*)"}...', Array, '<!DOCTYPE html>...')
+#2 C:\WebData\lab8\task_final\scripts\Statistics.php(108): Template->processTemplate()
+#3 {main}
+  thrown in C:\WebData\lab8\task_final\template.class.php on line 98
+[31-May-2023 19:37:36 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 299.7 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 38
+[31-May-2023 19:37:36 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:36 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:36 Europe/Minsk] PHP   3. imagefilledrectangle($image = class GdImage {  }, $x1 = 100, $y1 = 299.7, $x2 = 199, $y2 = 299, $color = 9881700) C:\WebData\lab8\task_final\scripts\Statistics.php:38
+[31-May-2023 19:37:36 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 299.7 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 41
+[31-May-2023 19:37:36 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:36 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:36 Europe/Minsk] PHP   3. imagerectangle($image = class GdImage {  }, $x1 = 100, $y1 = 299.7, $x2 = 199, $y2 = 299, $color = 9882468) C:\WebData\lab8\task_final\scripts\Statistics.php:41
+[31-May-2023 19:37:36 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 298.8 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 38
+[31-May-2023 19:37:36 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:36 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:36 Europe/Minsk] PHP   3. imagefilledrectangle($image = class GdImage {  }, $x1 = 200, $y1 = 298.8, $x2 = 299, $y2 = 299, $color = 9881700) C:\WebData\lab8\task_final\scripts\Statistics.php:38
+[31-May-2023 19:37:36 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 298.8 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 41
+[31-May-2023 19:37:36 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:36 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:36 Europe/Minsk] PHP   3. imagerectangle($image = class GdImage {  }, $x1 = 200, $y1 = 298.8, $x2 = 299, $y2 = 299, $color = 9882468) C:\WebData\lab8\task_final\scripts\Statistics.php:41
+[31-May-2023 19:37:37 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 299.7 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 38
+[31-May-2023 19:37:37 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:37 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:37 Europe/Minsk] PHP   3. imagefilledrectangle($image = class GdImage {  }, $x1 = 100, $y1 = 299.7, $x2 = 199, $y2 = 299, $color = 9881700) C:\WebData\lab8\task_final\scripts\Statistics.php:38
+[31-May-2023 19:37:37 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 299.7 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 41
+[31-May-2023 19:37:37 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:37 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:37 Europe/Minsk] PHP   3. imagerectangle($image = class GdImage {  }, $x1 = 100, $y1 = 299.7, $x2 = 199, $y2 = 299, $color = 9882468) C:\WebData\lab8\task_final\scripts\Statistics.php:41
+[31-May-2023 19:37:37 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 298.8 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 38
+[31-May-2023 19:37:37 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:37 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:37 Europe/Minsk] PHP   3. imagefilledrectangle($image = class GdImage {  }, $x1 = 200, $y1 = 298.8, $x2 = 299, $y2 = 299, $color = 9881700) C:\WebData\lab8\task_final\scripts\Statistics.php:38
+[31-May-2023 19:37:37 Europe/Minsk] PHP Deprecated:  Implicit conversion from float 298.8 to int loses precision in C:\WebData\lab8\task_final\scripts\Statistics.php on line 41
+[31-May-2023 19:37:37 Europe/Minsk] PHP Stack trace:
+[31-May-2023 19:37:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_final\scripts\Statistics.php:0
+[31-May-2023 19:37:37 Europe/Minsk] PHP   2. drawBarChart($values = [0 => 3000, 1 => 3, 2 => 12], $labels = [0 => '2023-05-29', 1 => '2023-05-30', 2 => '2023-05-31'], $backgroundColor = '#FFFFFF', $borderColor = '#96CB64') C:\WebData\lab8\task_final\scripts\Statistics.php:93
+[31-May-2023 19:37:37 Europe/Minsk] PHP   3. imagerectangle($image = class GdImage {  }, $x1 = 200, $y1 = 298.8, $x2 = 299, $y2 = 299, $color = 9882468) C:\WebData\lab8\task_final\scripts\Statistics.php:41

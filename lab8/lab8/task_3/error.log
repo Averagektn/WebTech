@@ -1,0 +1,20 @@
+[29-May-2023 14:48:08 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in C:\WebData\lab8\task_3\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab8\task_3\index.php on line 17
+[29-May-2023 14:50:20 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in C:\WebData\lab8\task_3\index.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab8\task_3\index.php on line 17
+[29-May-2023 14:58:40 Europe/Minsk] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\WebData\lab8\task_3\index.php on line 12
+[29-May-2023 14:58:40 Europe/Minsk] PHP Stack trace:
+[29-May-2023 14:58:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_3\index.php:0
+[31-May-2023 20:03:32 Europe/Minsk] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\WebData\lab8\task_3\index.php on line 12
+[31-May-2023 20:03:32 Europe/Minsk] PHP Stack trace:
+[31-May-2023 20:03:32 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_3\index.php:0
+[31-May-2023 20:11:15 Europe/Minsk] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\WebData\lab8\task_3\index.php on line 9
+[31-May-2023 20:11:15 Europe/Minsk] PHP Stack trace:
+[31-May-2023 20:11:15 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_3\index.php:0
+[31-May-2023 20:23:29 Europe/Minsk] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in C:\WebData\lab8\task_3\index.php on line 10
+[31-May-2023 20:23:29 Europe/Minsk] PHP Stack trace:
+[31-May-2023 20:23:29 Europe/Minsk] PHP   1. {main}() C:\WebData\lab8\task_3\index.php:0
