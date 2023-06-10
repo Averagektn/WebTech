@@ -26,10 +26,10 @@ $template->setLabels($labelsArray);
 $name = "";
 $email = "";
 if (isset($_SESSION['email'])){
-    $db_host = "localhost";
-    $db_name = "lab8";
-    $db_user = "root";
-    $db_pass = "Oboev54";
+    $db_host = "HOST";
+    $db_name = "NAME";
+    $db_user = "USER";
+    $db_pass = "PASSWORD";
     $db = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
     $email = $_SESSION['email'];
