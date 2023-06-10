@@ -1,0 +1,287 @@
+[09-Apr-2023 20:11:53 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:44:00 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:44:20 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:44:21 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:44:22 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:44:23 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:44:24 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:47:07 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:7
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 7
+[11-Apr-2023 20:47:08 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:7
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 7
+[11-Apr-2023 20:47:09 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:7
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 7
+[11-Apr-2023 20:47:10 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:7
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 7
+[11-Apr-2023 20:47:11 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:7
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 7
+[11-Apr-2023 20:47:12 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:7
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 7
+[11-Apr-2023 20:49:08 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 20:49:09 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 20:53:53 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:53:54 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(5): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\index.php on line 4
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\index.php on line 4
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Warning:  include(task_2_2/SafeFormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\index.php on line 5
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_2/SafeFormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\index.php on line 5
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:56:59 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(7): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\index.php on line 4
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\index.php on line 4
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Warning:  include(task_2_2/SafeFormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\index.php on line 5
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_2/SafeFormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\index.php on line 5
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 20:57:01 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:5
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(7): include()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 5
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP Warning:  include(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1\FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:39 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:4
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 4
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP Warning:  include(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1\FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:4
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 4
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Warning:  include(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1\FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:4
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 4
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Warning:  include(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1\FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:03:41 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:4
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 4
+[11-Apr-2023 21:04:34 Europe/Minsk] PHP Warning:  require_once(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:04:34 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:04:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:04:34 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:04:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:04:35 Europe/Minsk] PHP Warning:  require_once(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:04:35 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:04:35 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:04:35 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:04:35 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:04:36 Europe/Minsk] PHP Warning:  require_once(task_2_1\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:04:36 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:04:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:04:36 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:04:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:36 Europe/Minsk] PHP Warning:  require_once(task_2_1\.\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:36 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:05:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:05:36 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:05:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\.\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:37 Europe/Minsk] PHP Warning:  require_once(task_2_1\.\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:37 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:05:37 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:05:37 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:05:37 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\.\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP Warning:  require_once(task_2_1\.\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\.\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP Warning:  require_once(task_2_1\.\FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_2\index.php:0
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP   2. require_once() C:\WebData\lab4\task_2_2\index.php:4
+[11-Apr-2023 21:05:38 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1\.\FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_2\SafeFormBuilder.php:3
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\index.php(4): require_once()
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_2\SafeFormBuilder.php on line 3
+[11-Apr-2023 21:16:55 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:40
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 40
+[11-Apr-2023 21:16:56 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:40
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 40
+[11-Apr-2023 21:16:57 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:40
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 40
+[11-Apr-2023 21:16:58 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:40
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 40
+[11-Apr-2023 21:17:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:40
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 40
+[11-Apr-2023 21:17:35 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:40
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 40
+[11-Apr-2023 21:19:08 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:42
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 42
+[11-Apr-2023 21:19:09 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:42
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 42
+[11-Apr-2023 21:21:55 Europe/Minsk] PHP Fatal error:  Uncaught Error: Typed property FormBuilder::$radioButtons must not be accessed before initialization in C:\WebData\lab4\task_2_1\FormBuilder.php:46
+Stack trace:
+#0 C:\WebData\lab4\task_2_2\SafeFormBuilder.php(16): FormBuilder->getForm()
+#1 C:\WebData\lab4\task_2_2\index.php(14): SafeFormBuilder->getForm()
+#2 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 46

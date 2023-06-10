@@ -1,0 +1,40 @@
+[09-Apr-2023 16:35:41 Europe/Minsk] PHP Warning:  preg_replace(): Delimiter must not be alphanumeric, backslash, or NUL in C:\WebData\lab4\task_1_10\index.php on line 6
+[09-Apr-2023 16:35:41 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:35:41 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:35:41 Europe/Minsk] PHP   2. preg_replace($pattern = '\\s+', $replacement = '\\s', $subject = 'a  bc     ght g     hkl     gjk') C:\WebData\lab4\task_1_10\index.php:6
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP Warning:  preg_replace(): Empty regular expression in C:\WebData\lab4\task_1_10\index.php on line 4
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP   2. preg_replace($pattern = ' ', $replacement = '&nbsp', $subject = 'a  bc     ght g     hkl               gjk') C:\WebData\lab4\task_1_10\index.php:4
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\WebData\lab4\task_1_10\index.php on line 7
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP   2. htmlspecialchars($string = NULL) C:\WebData\lab4\task_1_10\index.php:7
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\WebData\lab4\task_1_10\index.php on line 9
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:11 Europe/Minsk] PHP   2. preg_replace($pattern = '/\\s+/', $replacement = ' ', $subject = NULL) C:\WebData\lab4\task_1_10\index.php:9
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP Warning:  preg_replace(): Empty regular expression in C:\WebData\lab4\task_1_10\index.php on line 4
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP   2. preg_replace($pattern = ' ', $replacement = '&nbsp', $subject = 'a  bc     ght g     hkl               gjk') C:\WebData\lab4\task_1_10\index.php:4
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\WebData\lab4\task_1_10\index.php on line 7
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP   2. htmlspecialchars($string = NULL) C:\WebData\lab4\task_1_10\index.php:7
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\WebData\lab4\task_1_10\index.php on line 9
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:12 Europe/Minsk] PHP   2. preg_replace($pattern = '/\\s+/', $replacement = ' ', $subject = NULL) C:\WebData\lab4\task_1_10\index.php:9
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP Warning:  preg_replace(): Empty regular expression in C:\WebData\lab4\task_1_10\index.php on line 4
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP   2. preg_replace($pattern = ' ', $replacement = '&nbsp', $subject = 'a  bc     ght g     hkl               gjk') C:\WebData\lab4\task_1_10\index.php:4
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\WebData\lab4\task_1_10\index.php on line 7
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP   2. htmlspecialchars($string = NULL) C:\WebData\lab4\task_1_10\index.php:7
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\WebData\lab4\task_1_10\index.php on line 9
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP Stack trace:
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_1_10\index.php:0
+[09-Apr-2023 16:43:13 Europe/Minsk] PHP   2. preg_replace($pattern = '/\\s+/', $replacement = ' ', $subject = NULL) C:\WebData\lab4\task_1_10\index.php:9

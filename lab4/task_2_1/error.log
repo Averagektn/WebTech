@@ -1,0 +1,89 @@
+[09-Apr-2023 18:49:51 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_1\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 2
+[09-Apr-2023 18:51:09 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property FormBuilder::$method of type int in C:\WebData\lab4\task_2_1\FormBuilder.php:11
+Stack trace:
+#0 C:\WebData\lab4\task_2_1\index.php(4): FormBuilder->__construct('post', '/destination.ph...', 'Send!')
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 11
+[09-Apr-2023 18:51:10 Europe/Minsk] PHP Fatal error:  Uncaught TypeError: Cannot assign string to property FormBuilder::$method of type int in C:\WebData\lab4\task_2_1\FormBuilder.php:11
+Stack trace:
+#0 C:\WebData\lab4\task_2_1\index.php(4): FormBuilder->__construct('post', '/destination.ph...', 'Send!')
+#1 {main}
+  thrown in C:\WebData\lab4\task_2_1\FormBuilder.php on line 11
+[09-Apr-2023 20:13:34 Europe/Minsk] PHP Parse error:  syntax error, unexpected token ";" in C:\WebData\lab4\task_2_1\index.php on line 3
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 20:59:07 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "task_2_1\FormBuilder" not found in C:\WebData\lab4\task_2_1\index.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 7
+[11-Apr-2023 21:01:33 Europe/Minsk] PHP Warning:  require_once(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:33 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:33 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:33 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1/FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:34 Europe/Minsk] PHP Warning:  require_once(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:34 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:34 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:34 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1/FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:35 Europe/Minsk] PHP Warning:  require_once(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:35 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:35 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:35 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1/FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:36 Europe/Minsk] PHP Warning:  require_once(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:36 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:36 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:36 Europe/Minsk] PHP Fatal error:  Uncaught Error: Failed opening required 'task_2_1/FormBuilder.php' (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 4
+[11-Apr-2023 21:01:53 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:53 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:53 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:53 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:53 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:53 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:54 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:54 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:54 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:54 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:54 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:54 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Warning:  include(task_2_1/FormBuilder.php): Failed to open stream: No such file or directory in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Warning:  include(): Failed opening 'task_2_1/FormBuilder.php' for inclusion (include_path='.;C:\php\pear') in C:\WebData\lab4\task_2_1\index.php on line 5
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP Stack trace:
+[11-Apr-2023 21:01:55 Europe/Minsk] PHP   1. {main}() C:\WebData\lab4\task_2_1\index.php:0
+[11-Apr-2023 21:02:39 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_1\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 3
+[11-Apr-2023 21:02:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_1\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 3
+[11-Apr-2023 21:02:42 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FormBuilder" not found in C:\WebData\lab4\task_2_1\index.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_2_1\index.php on line 3

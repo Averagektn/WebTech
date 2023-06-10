@@ -1,0 +1,1 @@
+abc <u>ОАО</u> <span style="color: blue;">1</span><span style="color: blue;">4</span><span style="color: blue;">2</span><span style="color: blue;">3</span> абв где

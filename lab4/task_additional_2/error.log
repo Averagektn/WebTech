@@ -1,0 +1,52 @@
+[11-Apr-2023 23:11:23 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in C:\WebData\lab4\task_additional_2\index.php:10
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 10
+[11-Apr-2023 23:14:50 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:14:51 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:14:52 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:15:42 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:15:43 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:15:44 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:15:45 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:18:40 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:22:54 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mime_content_type() in C:\WebData\lab4\task_additional_2\index.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 18
+[11-Apr-2023 23:58:56 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FileSystemObject" not found in C:\WebData\lab4\task_additional_2\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 4
+[11-Apr-2023 23:58:57 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FileSystemObject" not found in C:\WebData\lab4\task_additional_2\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 4
+[11-Apr-2023 23:58:58 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class "FileSystemObject" not found in C:\WebData\lab4\task_additional_2\index.php:4
+Stack trace:
+#0 {main}
+  thrown in C:\WebData\lab4\task_additional_2\index.php on line 4
